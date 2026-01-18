@@ -1,0 +1,18 @@
+# Pythonの一時ファイル（ゴミ）
+__pycache__/
+*.pyc
+
+# Jupyter Notebookのバックアップ（ゴミ）
+.ipynb_checkpoints/
+
+# 仮想環境（めちゃくちゃ重いので絶対に乗せない！）
+.conda/
+venv/
+env/
+hanyou/
+
+# データファイル（yfinanceに変えたからもう不要なら）
+*.csv
+
+# OSのゴミファイル
+.DS_Store
